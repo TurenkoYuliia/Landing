@@ -1,0 +1,79 @@
+.serve{
+    margin-top: 113px;
+    text-align: center;
+}
+
+.serve__title{
+    @include font-style-title;
+}
+
+.serve__text{
+    @include font-style-text;
+    margin-bottom: 45px;
+}
+
+.server__blocks{
+    display: flex;
+    justify-content: space-between;
+}
+
+.serve__block{
+    width: 540px;
+    height: 365px;
+
+    button{
+        @include button-orange;
+    }
+}
+
+.serve__orange__block{
+    background-color: $main-color;
+    
+    .orange__block__title{
+        color: #fff;
+    }
+    .orange__block__text{
+        color: #fff;
+    }
+
+    button:hover {
+        @include button-orange-hover
+    }
+}
+
+.serve__white__block{
+    border: #F5F6FA 5px solid;
+    background: #fff;
+
+    button{
+        background: #fff;
+        color: #000;
+
+        &:hover {
+            @include button-orange;
+        }
+    }
+
+}
+
+
+
+.block__icon{
+    img{
+        margin: 40px 0px 15px;
+    }
+}
+
+.block__title{
+    @include font-style-title;
+}
+
+.block__text{
+    @include font-style-text;
+    width: 364px;
+    margin: 0px auto 25px;
+
+}
+
+
+

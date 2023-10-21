@@ -1,0 +1,919 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  zoom: 100%; }
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto; }
+
+.container__big {
+  max-width: 1510px;
+  padding: 15px;
+  margin: 0 auto;
+  border-radius: 12px; }
+
+button {
+  cursor: pointer; }
+
+.header__container {
+  display: flex;
+  justify-content: space-between; }
+
+.header__info {
+  max-width: 710px;
+  z-index: 9; }
+
+.header__info__title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #323232;
+  font-size: 54px;
+  padding: 35px 35px 117px;
+  margin-right: -150px;
+  position: relative; }
+
+.header__info__text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #323232;
+  letter-spacing: 1.15px;
+  width: 467px;
+  margin-bottom: 42px; }
+
+.header__info__input {
+  width: 460px;
+  height: 58px;
+  width: 450px;
+  border-radius: 29px;
+  box-shadow: #ccc 5px 10px 10px;
+  background: white;
+  position: relative; }
+  .header__info__input .header_info__label {
+    align-items: center; }
+    .header__info__input .header_info__label div {
+      align-items: center;
+      display: flex;
+      height: 56px; }
+      .header__info__input .header_info__label div img {
+        margin: 0px 20px; }
+      .header__info__input .header_info__label div input {
+        font-size: 16px;
+        font-family: 'Poppins', serif;
+        border: 0;
+        outline-style: none; }
+      .header__info__input .header_info__label div button {
+        background: #F78434;
+        color: #fff;
+        border: 0;
+        padding: 16px 37px;
+        border-radius: 30px;
+        transition: .2s;
+        font-family: 'Poppins', serif;
+        font-weight: 700;
+        font-size: 16px;
+        position: absolute;
+        top: 1px;
+        left: 300px; }
+      .header__info__input .header_info__label div button:hover {
+        color: #fff;
+        background: #58BEBF;
+        transition: .3s; }
+
+.nav__row {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0px; }
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  align-items: center; }
+
+.nav__container__active {
+  display: none; }
+
+.nav__menu__hover {
+  display: none;
+  z-index: 9; }
+
+.nav__menu__hover__block {
+  background-color: #00000048;
+  display: none;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  left: 0;
+  top: 0; }
+
+.nav__item a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #323232;
+  letter-spacing: 1.15px;
+  text-decoration: none;
+  transition: .3s; }
+  .nav__item a:hover {
+    border-bottom: 1px solid #323232; }
+
+.nav__item__active a {
+  color: #F78434; }
+  .nav__item__active a:hover {
+    border-bottom: 1px solid #F78434; }
+
+.close {
+  display: none; }
+
+/*-------------------------------*/
+.company__logo__container {
+  margin: 100px 0px 90px; }
+
+.company__wrapper {
+  display: flex;
+  justify-content: space-between; }
+
+.container__big {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F5F6FA; }
+
+.about__info__container {
+  width: 374px;
+  margin: 0 auto;
+  align-items: center; }
+  .about__info__container button {
+    background: #F78434;
+    color: #fff;
+    border: 0;
+    padding: 16px 37px;
+    border-radius: 30px;
+    transition: .2s;
+    font-family: 'Poppins', serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 20px; }
+  .about__info__container button:hover {
+    color: #fff;
+    background: #58BEBF;
+    transition: .3s; }
+
+.about__info__title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #323232;
+  margin-top: 68px; }
+
+.about__info__text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #323232;
+  letter-spacing: 1.15px;
+  padding: 20px 0px; }
+
+.product {
+  margin-top: 150px; }
+
+.product__container {
+  background-image: url(../img/Bg.png);
+  height: 464px;
+  position: relative; }
+
+.prosuct__block {
+  width: 342px;
+  position: absolute;
+  left: 660px;
+  top: 92px; }
+
+.product__title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #323232;
+  color: #fff; }
+
+.product__text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #323232;
+  letter-spacing: 1.15px;
+  color: #fff;
+  padding: 15px 0px; }
+
+.product__buttons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between; }
+  .product__buttons button {
+    background: #F78434;
+    color: #fff;
+    border: 0;
+    padding: 16px 37px;
+    border-radius: 30px;
+    transition: .2s;
+    font-family: 'Poppins', serif;
+    font-weight: 700;
+    font-size: 16px; }
+    .product__buttons button:hover {
+      background: #fff;
+      color: #F78434;
+      transition: .3s; }
+  .product__buttons .white {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 25px;
+    align-items: center;
+    background: #fff;
+    color: #000; }
+    .product__buttons .white img {
+      padding-right: 10px; }
+  .product__buttons .white:hover {
+    background: #fff;
+    color: #F78434;
+    transition: .3s;
+    color: #F78434; }
+
+.serve {
+  margin-top: 113px;
+  text-align: center; }
+
+.serve__title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #323232; }
+
+.serve__text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #323232;
+  letter-spacing: 1.15px;
+  margin-bottom: 45px; }
+
+.server__blocks {
+  display: flex;
+  justify-content: space-between; }
+
+.serve__block {
+  width: 540px;
+  height: 365px; }
+  .serve__block button {
+    background: #F78434;
+    color: #fff;
+    border: 0;
+    padding: 16px 37px;
+    border-radius: 30px;
+    transition: .2s;
+    font-family: 'Poppins', serif;
+    font-weight: 700;
+    font-size: 16px; }
+
+.serve__orange__block {
+  background-color: #F78434; }
+  .serve__orange__block .orange__block__title {
+    color: #fff; }
+  .serve__orange__block .orange__block__text {
+    color: #fff; }
+  .serve__orange__block button:hover {
+    background: #fff;
+    color: #F78434;
+    transition: .3s; }
+
+.serve__white__block {
+  border: #F5F6FA 5px solid;
+  background: #fff; }
+  .serve__white__block button {
+    background: #fff;
+    color: #000; }
+    .serve__white__block button:hover {
+      background: #F78434;
+      color: #fff;
+      border: 0;
+      padding: 16px 37px;
+      border-radius: 30px;
+      transition: .2s;
+      font-family: 'Poppins', serif;
+      font-weight: 700;
+      font-size: 16px; }
+
+.block__icon img {
+  margin: 40px 0px 15px; }
+
+.block__title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #323232; }
+
+.block__text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #323232;
+  letter-spacing: 1.15px;
+  width: 364px;
+  margin: 0px auto 25px; }
+
+.choose {
+  margin: 144px 0px 170px;
+  text-align: center; }
+
+.choose__title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #323232; }
+
+.choose__block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 58px; }
+
+.choose__wrapper {
+  display: flex;
+  justify-content: space-between; }
+
+.choose__item__title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #323232;
+  font-size: 28px;
+  margin: 15px 0px 2px; }
+
+.choose__item__text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #323232;
+  letter-spacing: 1.15px; }
+
+.review {
+  margin-bottom: 100px; }
+
+.review__title__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 58px; }
+
+.review__title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #323232;
+  width: 452px; }
+
+.review__text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #323232;
+  letter-spacing: 1.15px;
+  color: #606060;
+  width: 398px; }
+
+/* -------- */
+.review__item__block {
+  display: flex;
+  justify-content: space-between; }
+
+.review__item {
+  width: 350px;
+  height: 425px;
+  background: #fff;
+  transition: .5s; }
+  .review__item:hover {
+    transition: .5s;
+    box-shadow: #e7e7e7 0px 0px 50px 10px; }
+    .review__item:hover .review__city {
+      color: #F78434; }
+    .review__item:hover .second__img {
+      display: block; }
+
+.review__item__img {
+  position: relative; }
+
+.second__img {
+  position: absolute;
+  left: 290px;
+  top: 152px;
+  padding: 10px 11px 8px 14px;
+  border-radius: 50px;
+  background: #fff;
+  display: none;
+  transition: .3s; }
+
+.review__discr__block {
+  padding: 0px 29px; }
+
+.review__discr {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #323232;
+  letter-spacing: 1.15px;
+  margin: 31px 0px 23px; }
+
+.review__author {
+  font-family: 'Poppins', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #323232;
+  font-size: 18px; }
+
+.review__city {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #323232;
+  letter-spacing: 1.15px;
+  color: #58BEBF;
+  transition: .3s; }
+
+.contact {
+  background-image: url(../img/BgCont.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 547px;
+  margin: 0 auto; }
+
+.contact__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.contact__title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #323232;
+  color: #fff;
+  width: 359px;
+  margin-top: 100px; }
+
+.contact__text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #323232;
+  letter-spacing: 1.15px;
+  color: #fff;
+  width: 359px;
+  margin: 15px 0 30px; }
+
+.contact__dicsr button {
+  background: #F78434;
+  color: #fff;
+  border: 0;
+  padding: 16px 37px;
+  border-radius: 30px;
+  transition: .2s;
+  font-family: 'Poppins', serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #323232;
+  background: #fff; }
+  .contact__dicsr button:hover {
+    background: #F78434;
+    color: #fff;
+    border: 0;
+    padding: 16px 37px;
+    border-radius: 30px;
+    transition: .2s;
+    font-family: 'Poppins', serif;
+    font-weight: 700;
+    font-size: 16px; }
+
+.footer {
+  margin: 96px 0 82px; }
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.footer__contant {
+  display: flex;
+  justify-content: space-between;
+  width: 600px; }
+
+.footer__title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #323232;
+  margin-bottom: 5px;
+  font-size: 21px; }
+
+.footer__text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #323232;
+  letter-spacing: 1.15px;
+  margin-top: 13px; }
+
+.footer__about .footer__text {
+  width: 300px;
+  margin-bottom: 40px; }
+.footer__about .footer__icons {
+  width: 185px;
+  display: flex;
+  justify-content: space-between; }
+
+@media (max-width: 1225px) {
+  .container {
+    max-width: 900px; }
+
+  .container__big {
+    max-width: 1200px; }
+
+  .header .header__info__title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #323232;
+    font-size: 36px;
+    width: 500px;
+    padding-left: 0;
+    padding-bottom: 80px; }
+  .header .header__logo img {
+    height: 500px; }
+
+  .company__logo .company__wrapper img {
+    height: 30px; }
+
+  .about .about__images__container img {
+    height: 400px; }
+  .about .about__info__container {
+    width: 340px; }
+    .about .about__info__container .about__info__title {
+      margin-top: 0px; }
+    .about .about__info__container .about__info__text {
+      padding: 15px 0px 5px; }
+
+  .product .product__container {
+    border-radius: 20px; }
+  .product .prosuct__block {
+    background-color: #58BEBF;
+    padding: 30px;
+    width: 400px;
+    left: 460px;
+    top: 80px;
+    border-radius: 20px; }
+
+  .choose .choose__wrapper {
+    display: block;
+    padding: 10px; }
+    .choose .choose__wrapper .choose__item {
+      padding-bottom: 40px; }
+
+  .review .review__item {
+    width: 260px;
+    height: 380px; }
+    .review .review__item .main__img {
+      width: 260px; }
+    .review .review__item .second__img {
+      left: 210px;
+      top: 102px;
+      height: 36px;
+      padding: 10px 12px 8px 15px; }
+
+  .footer .footer__contant {
+    margin-left: 20px; } }
+@media (max-width: 975px) {
+  .container {
+    max-width: 600px; }
+
+  .container__big {
+    max-width: 850px; }
+
+  .nav .nav__row {
+    padding: 15px 0px; }
+  .nav .nav__container {
+    display: none; }
+  .nav .nav__menu__hover {
+    display: block; }
+    .nav .nav__menu__hover button {
+      border: none;
+      padding: 5px 10px;
+      background: #F78434;
+      font-family: 'Poppins', sans-serif;
+      color: #fff; }
+      .nav .nav__menu__hover button:hover {
+        background: #58BEBF; }
+  .nav .nav__menu__hover__block {
+    display: none; }
+  .nav .nav__container__active {
+    display: block;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    height: 150%;
+    width: 40%;
+    background-color: #fbfbff;
+    padding-top: 20px;
+    animation-name: hover_menu;
+    animation-duration: .3s; }
+  @keyframes hover_menu {
+    from {
+      left: -210px; }
+    to {
+      left: 0px; } }
+    .nav .nav__container__active .nav__item {
+      padding: 10px 0px 10px 20px;
+      width: 170px; }
+      .nav .nav__container__active .nav__item a {
+        font-size: 20px; }
+  .nav .block {
+    display: block; }
+  .nav .back {
+    animation-name: hover_menu__back;
+    animation-duration: .3s; }
+  @keyframes hover_menu__back {
+    from {
+      left: 0px; }
+    to {
+      left: -210px; } }
+  .nav img {
+    zoom: 60%;
+    left: 10px; }
+
+  .company__logo .company__wrapper img {
+    height: 20px; }
+
+  .header {
+    height: 370px; }
+    .header .header__info {
+      width: 280px;
+      margin: 0 auto; }
+      .header .header__info .header__info__title {
+        font-size: 18px;
+        text-align: center;
+        width: 290px;
+        padding-bottom: 0; }
+      .header .header__info .header__info__text {
+        background-color: white;
+        padding: 15px;
+        width: 255px;
+        margin: 25px auto 25px;
+        border-radius: 20px;
+        font-size: 10px; }
+      .header .header__info .header__info__input {
+        margin: auto;
+        zoom: 59%; }
+        .header .header__info .header__info__input button {
+          height: 59px;
+          top: -1px; }
+    .header .header__logo img {
+      max-width: 300px;
+      height: auto; }
+
+  .about .about__info__container .about__info__title {
+    font-size: 36px; }
+
+  .product .prosuct__block {
+    left: 200px; }
+
+  .serve {
+    margin-top: 50px; }
+    .serve .server__blocks {
+      display: block; }
+      .serve .server__blocks .serve__block {
+        width: 500px;
+        margin: 20px auto;
+        border-radius: 20px; }
+        .serve .server__blocks .serve__block .block__text {
+          width: 260px; }
+
+  .review {
+    padding: 30px 0px; }
+    .review .review__title__block .review__title {
+      font-size: 30px;
+      width: 230px;
+      margin: 0 auto; }
+    .review .review__title__block .review__text {
+      width: 200px;
+      margin: 10px auto 0; }
+    .review .review__item__block .review__item {
+      width: 190px;
+      height: auto;
+      margin: 20px auto 0;
+      border-radius: 20px; }
+      .review .review__item__block .review__item:hover {
+        box-shadow: #e7e7e7 0px 0px 1px 5px; }
+      .review .review__item__block .review__item .main__img {
+        width: 190px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px; }
+      .review .review__item__block .review__item .second__img {
+        left: 145px;
+        top: 70px; }
+
+  .contact {
+    height: 330px; }
+    .contact .contact__dicsr {
+      padding: 15px;
+      margin: 0 auto;
+      background-color: #58BEBF;
+      border-radius: 10px; }
+      .contact .contact__dicsr .contact__title {
+        font-size: 30px;
+        width: 250px;
+        margin: 0; }
+      .contact .contact__dicsr .contact__text {
+        width: 230px; }
+      .contact .contact__dicsr button {
+        background: #fdfdfd; }
+        .contact .contact__dicsr button:hover {
+          background: #F78434;
+          color: #fff;
+          border: 0;
+          padding: 16px 37px;
+          border-radius: 30px;
+          transition: .2s;
+          font-family: 'Poppins', serif;
+          font-weight: 700;
+          font-size: 16px; }
+    .contact .woman {
+      display: none; }
+
+  .footer .footer__container {
+    display: block; }
+    .footer .footer__container .footer__contant {
+      margin-top: 50px; }
+
+  .two {
+    display: none; } }
+@media (max-width: 620px) {
+  .container {
+    width: 450px; }
+
+  .about .about__info__container {
+    padding: 20px 50px; }
+    .about .about__info__container .about__info__title {
+      font-size: 18px; }
+    .about .about__info__container .about__info__text {
+      font-size: 10px; }
+    .about .about__info__container button {
+      zoom: 60%; }
+
+  .product .prosuct__block {
+    left: 20px; }
+
+  .serve {
+    margin-top: 50px; }
+    .serve .server__blocks {
+      display: block; }
+      .serve .server__blocks .serve__block {
+        width: 350px;
+        margin: 20px auto;
+        border-radius: 20px; }
+        .serve .server__blocks .serve__block .block__text {
+          width: 260px; }
+
+  .choose .choose__block {
+    display: block; }
+    .choose .choose__block .choose__wrapper {
+      display: block;
+      padding: 10px; }
+      .choose .choose__block .choose__wrapper .choose__item {
+        padding-bottom: 40px; }
+        .choose .choose__block .choose__wrapper .choose__item .choose__item__text {
+          width: 300px;
+          margin: 0 auto; }
+
+  .review .review__item__block {
+    display: block; }
+    .review .review__item__block .review__item {
+      width: 300px;
+      height: 380px; }
+      .review .review__item__block .review__item .main__img {
+        width: 300px; }
+      .review .review__item__block .review__item .second__img {
+        left: 240px;
+        top: 122px;
+        height: 36px;
+        padding: 10px 12px 8px 15px; }
+
+  .footer .footer__container {
+    display: block;
+    width: 300px; }
+    .footer .footer__container .footer__contant {
+      display: block;
+      width: 300px; }
+      .footer .footer__container .footer__contant .footer__item {
+        padding-top: 40px; } }
+@media (max-width: 450px) {
+  .container {
+    width: 300px;
+    margin: 0 auto; }
+
+  .container__big {
+    width: 300px;
+    padding-left: 0; }
+
+  .nav .nav__container__active {
+    width: 60%; }
+
+  .header .header__container {
+    position: relative; }
+    .header .header__container .header__logo {
+      position: absolute;
+      left: 0px; }
+    .header .header__container .header__info__title {
+      padding: 50px 20px 10px; }
+
+  .company__logo {
+    width: 320px;
+    margin: -85px auto; }
+    .company__logo img {
+      zoom: 30%; }
+
+  .about {
+    margin-top: 100px; }
+    .about .about__images__container img {
+      height: 380px;
+      margin: 0; }
+    .about .about__info__container {
+      position: absolute;
+      padding: 10px;
+      margin: 15px 0px 0px 150px;
+      background: #fff;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      width: 150px; }
+      .about .about__info__container .about__info__title {
+        font-size: 15px;
+        margin: 0; }
+      .about .about__info__container .about__info__text {
+        font-size: 10px;
+        padding: 5px; }
+      .about .about__info__container button {
+        zoom: 60%; }
+
+  .product {
+    margin-top: 50px; }
+    .product .product__container {
+      background-image: url(../img/BgAd.png);
+      border-radius: 20px; }
+      .product .product__container .prosuct__block {
+        left: 0;
+        top: 70px;
+        text-align: center;
+        width: 300px; }
+        .product .product__container .prosuct__block .product__title {
+          font-size: 35px; }
+        .product .product__container .prosuct__block .product__buttons button {
+          margin: 0;
+          zoom: 60%; }
+        .product .product__container .prosuct__block .product__buttons .white {
+          background-color: #fdfdfd; }
+          .product .product__container .prosuct__block .product__buttons .white:hover {
+            background-color: #fdfdfd; }
+
+  .serve .server__blocks .serve__block {
+    width: 300px; }
+
+  .choose {
+    margin-top: 50px;
+    zoom: 80%; }
+    .choose .choose__block {
+      display: block; }
+      .choose .choose__block .choose__item {
+        margin-top: 70px; }
+
+  .review .review__title__block {
+    display: block; }
+    .review .review__title__block .review__title {
+      font-size: 25px;
+      text-align: center; }
+  .review .review__item__block {
+    display: block; }
+    .review .review__item__block .review__item {
+      width: 250px; }
+      .review .review__item__block .review__item .main__img {
+        width: 250px; }
+      .review .review__item__block .review__item .second__img {
+        left: 200px;
+        top: 100px; } }
+@media (max-width: 450px) and (max-width: 320px) {
+  body {
+    zoom: 85%; } }
+
+/*# sourceMappingURL=main.css.map */

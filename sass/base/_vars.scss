@@ -1,0 +1,48 @@
+$main-color: #F78434;
+$main-color-second: #58BEBF;
+$txt-color: #323232;
+
+@mixin font-style-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: $txt-color;
+}
+
+@mixin font-style-title-media {
+    @include font-style-title;
+    font-size: 36px;
+}
+
+@mixin font-style-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: $txt-color;
+    letter-spacing: 1.15px;
+}
+
+@mixin button-orange {
+    background: $main-color;
+    color: #fff;
+    border: 0;
+    padding: 16px 37px;
+    border-radius: 30px;
+
+    transition: .2s;
+    font-family: 'Poppins', serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+@mixin button-green-hover{
+    color: #fff;
+    background: $main-color-second;
+    transition: .3s;
+}
+
+@mixin button-orange-hover{
+    background: #fff;
+    color: $main-color;
+    transition: .3s;
+}

@@ -1,0 +1,41 @@
+.contact {
+    background-image: url(../img/BgCont.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 547px;
+
+    margin: 0 auto;
+}
+
+.contact__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact__title{
+    @include font-style-title;
+    color: #fff;
+    width: 359px;
+    margin-top: 100px;
+}
+
+.contact__text{
+    @include font-style-text;
+    color: #fff;
+    width: 359px;
+    margin: 15px 0 30px;
+}
+
+.contact__dicsr {
+    button {
+        @include button-orange;
+        color: #323232;
+        background: #fff;
+
+        &:hover {
+            @include button-orange;
+        }
+    }
+}

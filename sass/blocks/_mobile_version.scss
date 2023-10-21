@@ -1,0 +1,173 @@
+@media (max-width: 450px) {
+    .container {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .container__big {
+        width: 300px;
+        padding-left: 0;
+    }
+
+    .header{
+        height: 370px;
+
+        .header__info{
+            z-index: 9;
+            width: 280px;
+            margin: 0 auto;
+
+            .header__info__title{
+                font-size: 18px;
+                text-align: center;
+                width: 290px;
+                padding-bottom: 0;
+            }
+
+            .header__info__text{
+                background-color: rgb(255, 255, 255);
+                padding: 15px;
+                width: 255px;
+                margin: 25px auto 25px;
+                border-radius: 20px;
+                font-size: 10px;
+            }
+
+            .header__info__input{
+                margin: auto;
+                zoom: 59%;
+                box-shadow: none;
+
+                button {
+                    height: 59px;
+                    top: -1px;
+                }
+            }
+
+        }
+
+        .header__logo {
+            position: absolute;
+            z-index: 1;
+
+            img {
+                max-width: 300px;
+                height: auto;
+            }
+        }
+    }
+
+    .company__logo{
+        width: 320px;
+        margin: -85px auto;
+        img {
+            zoom: 30%;
+        }
+    }
+
+    .about{
+        margin-top: 100px;
+
+        .about__images__container{
+
+            img {
+                height: 380px;
+                margin: 0;
+            }
+        }
+
+        .about__info__container{
+            position: absolute;
+
+            padding: 10px;
+            margin: 15px 0px 0px 150px;
+            background: #fff;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            width: 150px;
+
+            .about__info__title{
+                font-size: 15px;
+                margin: 0;
+            }
+
+            .about__info__text{
+                font-size: 10px;
+                padding: 5px;
+            }
+
+            button{
+                zoom: 60%;
+            }
+        }
+    }
+
+    .product {
+        margin-top: 50px;
+
+        .product__container {
+            background-image: url(../img/BgAd.png);
+            border-radius: 20px;
+
+            .prosuct__block{
+                left: 40px;
+                text-align: center;
+                width: 230px;
+
+                .product__title{
+                    font-size: 35px;
+                }
+
+                .product__buttons{
+                    
+                    button {
+                        margin: 0;
+                        zoom: 60%;
+                    }
+
+                    .white {
+                        background-color: rgb(253, 253, 253);
+                        &:hover{
+                            background-color: rgb(253, 253, 253);
+                        }
+                    }
+                }
+            }
+           
+        }
+    }
+
+    .serve{
+        .server__blocks{
+            .serve__block{
+                width: 250px;
+            }
+        }
+    }
+
+    .choose{
+        margin-top: 50px;
+        zoom: 80%;
+
+        .choose__block {
+            display: block;
+
+            .choose__item{
+                margin-top: 70px;
+            }
+        }
+    }
+
+    .review{
+        .review__item__block{
+            display: block;
+        }
+    }
+
+
+@media (max-width: 320px) {
+    body {
+        zoom: 65%;
+    }
+}
+}

@@ -1,0 +1,19 @@
+body {
+    zoom: 100%;
+}
+
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.container__big {
+    max-width: 1510px;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+button {
+    cursor: pointer;
+}

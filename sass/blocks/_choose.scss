@@ -1,0 +1,31 @@
+.choose{
+    margin: 144px 0px 170px;
+    text-align: center;
+}
+
+.choose__title{
+    @include font-style-title;
+}
+
+.choose__block{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 58px;
+}
+
+.choose__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.choose__item__title{
+    @include font-style-title;
+    font-size: 28px;
+    margin: 15px 0px 2px;
+}
+
+.choose__item__text{
+    @include font-style-text;
+}
+

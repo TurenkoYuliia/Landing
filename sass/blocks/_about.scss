@@ -1,0 +1,30 @@
+.container__big{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F6FA;
+}
+
+.about__info__container{
+    width: 374px;
+    margin: 0 auto;
+    align-items: center;
+
+    button{
+        @include button-orange;
+        margin-top: 20px;
+    }
+
+    button:hover{
+        @include button-green-hover;
+    }
+}
+
+.about__info__title{
+    @include font-style-title;
+    margin-top: 68px;
+}
+
+.about__info__text{
+    @include font-style-text;
+    padding: 20px 0px;
+}
